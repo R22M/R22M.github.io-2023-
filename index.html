@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <link href="Index.css" rel="stylesheet"> <!--- 1.b --->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>MCU - Movies and Series</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/marvel ico.png" alt="MCU Logo">
+            MCU Phases
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#phase1">
+                        <i class="bi bi-1-square"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#phase2">
+                        <i class="bi bi-2-square"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#phase3">
+                        <i class="bi bi-3-square"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#phase4">
+                        <i class="bi bi-4-square"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#phase5">
+                        <i class="bi bi-5-square"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#phase6">
+                        <i class="bi bi-6-square"></i>
+                    </a>
+                </li>
+                <!-- Part 7: Using a Bootstrap Contextual Class -->
+                <!-- Using a contextual class on a button -->
+                <li class="nav-item">
+                    <a class="nav-link btn btn-warning"
+                        href="https://www.youtube.com/watch?v=epyRUp0BhrA&list=RDepyRUp0BhrA&index=4">Warning</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <header>
+        <h1>MCU</h1>
+        <h1>List of movies and series</h1>
+    </header>
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <!-- Card with Image Cap -->
+                <div class="card">
+                    <div id="ironManCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#ironManCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#ironManCarousel" data-slide-to="1"></li>
+                            <li data-target="#ironManCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <!-- carousel slide -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/Phase1/IronMan1.jpg" class="d-block w-100" alt="Iron Man 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Phase1/IronMan2.jpg" class="d-block w-100" alt="Iron Man 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Phase2/Iron Man 3.jpg" class="d-block w-100" alt="Iron Man 3">
+                            </div>
+                        </div>
+                        <!-- carousel controls -->
+                        <a class="carousel-control-prev" href="#ironManCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#ironManCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Iron Man</h5>
+                        <p class="card-text">Iron Man is a fictional superhero appearing in American comic books
+                            published by Marvel Comics.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-3">
+                <!-- Card 2 with Image Cap -->
+                <div class="card">
+                    <div id="thorCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Carousel Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#thorCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#thorCarousel" data-slide-to="1"></li>
+                            <li data-target="#thorCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Carousel Slides -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/Phase1/Thor.jpg" class="d-block w-100" alt="Thor 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Phase2/Thor The Dark World.jpg" class="d-block w-100" alt="Thor 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Phase3/Thor Ragnarok.jpg" class="d-block w-100" alt="Thor 3">
+                            </div>
+                        </div>
+                        <!-- Carousel Controls -->
+                        <a class="carousel-control-prev" href="#thorCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#thorCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Thor</h5>
+                        <p class="card-text">Thor is a fictional character appearing in American comic books published
+                            by Marvel Comics.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-3">
+                <!-- Card 3 with Image Cap -->
+                <div class="card">
+                    <div id="capAmericaCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Carousel Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#capAmericaCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#capAmericaCarousel" data-slide-to="1"></li>
+                            <li data-target="#capAmericaCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Carousel Slides -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/Phase1/Captain America The First Avenger.jpg" class="d-block w-100"
+                                    alt="Captain America 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Phase2/Captain America the Winter Soldier.jpg" class="d-block w-100"
+                                    alt="Captain America 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/Phase3/Captain America Civil War.jpg" class="d-block w-100"
+                                    alt="Captain America 3">
+                            </div>
+                        </div>
+                        <!-- Carousel Controls -->
+                        <a class="carousel-control-prev" href="#capAmericaCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#capAmericaCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Captain America</h5>
+                        <p class="card-text">Captain America is a fictional superhero appearing in American comic books
+                            published by Marvel Comics.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-3">
+                <!-- Card 4 with Image Cap -->
+                <div class="card">
+                    <img src="images/Phase4/Black Widow.jpg" class="card-img-top" alt="Black Widow">
+                    <div class="card-body">
+                        <h5 class="card-title">Black Widow</h5>
+                        <p class="card-text">Black Widow is a fictional character appearing in American comic books
+                            published by Marvel Comics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <!-- Content 1: 1/3 of the page width on larger screens and full width on smaller screens -->
+            <div class="col-12 col-md-4">
+                <h2>About the MCU</h2>
+                <p>
+                    The Marvel Cinematic Universe (MCU) is a media franchise and shared universe centered on a series of
+                    superhero films and television series produced by Marvel Studios.
+                </p>
+            </div>
+            <!-- Content 2: 2/3 of the page width on larger screens and full width on smaller screens -->
+            <div class="col-12 col-md-8">
+                <h2>MCU Movies</h2>
+                <p>
+                    The MCU includes numerous blockbuster films, such as Iron Man (directed by Jon Favreau), Thor
+                    (directed by Kenneth Branagh), Captain America (directed by Joe Johnston), Black Widow (directed by
+                    Cate Shortland), Avengers, Guardians of the Galaxy, and many more.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section id="phase1">
+        <h2>Phase 1 (2008 to 2012)</h2>
+        <p>
+            Robert Downey Jr. and Jeff Bridges in Iron Man<br>
+            Paramount
+        </p>
+        <p>Movies featured:</p>
+        <ul>
+                            <!-- Part 7: Using a Bootstrap Contextual Class -->
+            <li class="list-group-item active" aria-current="true">Iron Man</li>
+            <li class="list-group-item">The Incredible Hulk</li>
+            <li>Iron Man 2</li>
+            <li>Thor</li>
+            <li>Captain America: The First Avenger</li>
+            <li>The Avengers</li>
+        </ul>
+        <p>What's it all about?</p>
+        <div class="my-lg-4"> <!-- This class adds margins of 24 px on top and underneath the element -->
+            <p>Billionaire arms-dealing playboy Tony Stark has a life-changing experience in the desert and builds
+                himself
+                a hero suit. He fights a number of other tech-industry figures and meets Natasha Romanoff, aka Black
+                Widow,
+                and her SHIELD boss Nick Fury.</p>
+        </div>
+    </section>
+
+
+    <section id="phase2">
+        <h2>Phase 2 (2013 to 2015)</h2>
+        <p>
+            Ultron in Avengers: Age of Ultron<br>
+            Disney
+        </p>
+        <p>Movies featured:</p>
+        <ul>
+            <li>Iron Man 3</li>
+            <li>Thor: The Dark World</li>
+            <li>Captain America: The Winter Soldier</li>
+            <li>Guardians of the Galaxy</li>
+            <li>Avengers: Age of Ultron</li>
+            <li>Ant-Man</li>
+        </ul>
+        <p>What's it all about?</p>
+        <p>A (briefly) traumatised Tony Stark steps back from the action, only to be drawn back into it by another
+            tech-industry figure and his puppet villain, an actor called Trevor who was the toast of Croydon.</p>
+    </section>
+
+    <section id="phase3">
+        <h2>Phase 3 (2016 to 2019)</h2>
+        <p>
+            Avengers: Endgame, Thanos, Josh Brolin<br>
+            Marvel Studios
+        </p>
+        <p>Movies featured:</p>
+        <ul>
+            <li>Captain America: Civil War</li>
+            <li>Doctor Strange</li>
+            <li>Guardians of the Galaxy Vol 2</li>
+            <li>Spider-Man: Homecoming</li>
+            <li>Thor: Ragnarok</li>
+            <li>Black Panther</li>
+            <li>Avengers: Infinity War</li>
+            <li>Ant-Man and the Wasp</li>
+            <li>Captain Marvel</li>
+            <li>Avengers: Endgame</li>
+            <li>Spider-Man: Far From Home</li>
+        </ul>
+        <p>What's it all about?</p>
+        <!-- Card with Image Cap -->
+
+        <p class="back3">The Big One. The Phase to end all Phases,
+            until Phase 4. We meet Doctor Strange. He's a surgeon who can do
+            magic, and his real name actually is Doctor Strange. (Of course, if he were British, like the actor who
+            plays him, he would be Mr. Strange, FRCS.) Captain America, his flying friend Falcon, Bucky, Ant-Man, and
+            Black Widow team up against Tony Stark, his buddy War Machine, his former cyber-butler Jarvis (now a demigod
+            called Vision), Stark's teenage protégé Spider-Man and his new royal African friend Black Panther in a
+            dispute
+            over whether superheroes should answer to the world's governments or not. From the scale of it and the size
+            of
+            the cast, you might think this is Avengers 3, by the way, but it isn't.
+        </p>
+    </section>
+
+    <section id="phase4">
+        <h2>Phase 4 (2021 to 2022)</h2>
+        <p>
+            Andrew Garfield, Tom Holland, Tobey Maguire in Spider-Man: No Way Home<br>
+            Sony Pictures
+        </p>
+        <p>Movies and TV shows featured:</p>
+        <ul>
+            <li>WandaVision</li>
+            <li>The Falcon and the Winter Soldier</li>
+            <li>Black Widow</li>
+            <li>Loki season 1</li>
+            <li>What If...?</li>
+            <li>Shang-Chi and the Legend of the Ten Rings</li>
+            <li>Eternals</li>
+            <li>Hawkeye</li>
+            <li>Spider-Man: No Way Home</li>
+            <li>Moon Knight</li>
+            <li>Doctor Strange in the Multiverse of Madness</li>
+            <li>Ms Marvel</li>
+            <li>Thor: Love and Thunder</li>
+            <li>She-Hulk: Attorney At Law</li>
+            <li>Werewolf By Night</li>
+            <li>Black Panther: Wakanda Forever</li>
+            <li>The Guardians of the Galaxy Holiday Special</li>
+        </ul>
+        <p>What's it all about?</p>
+        <p>Phase 4 mostly consisted of two things: bringing a whole bunch of new characters into the MCU and introducing
+            the concept of the multiverse. Notable new characters include Yelena Boleva (Florence Pugh) from Black
+            Widow, Shang-Chi (Simu Liu) from Shang-Chi and the Legend of the Ten Rings, every Eternal including Harry
+            Styles's Eros, Moon Knight (Oscar Isaac) from, erm, Moon Knight and America Chavez (Xochitl Gomez) from
+            Doctor Strange in the Multiverse of Madness. The latter seems like one of the most crucial new additions as
+            it was revealed that she can travel the multiverse. However, Loki also introduced He Who Remains (Jonathan
+            Majors) who is a variant of Kang the Conqueror, the main villain of The Multiverse Saga if the title of
+            Avengers 5 is anything to go by. In terms of the multiverse, Peter Parker briefly broke it in Spider-Man: No
+            Way Home to make the world forget he was Spider-Man, while Doctor Strange ventured into the multiverse to
+            save America from a vengeful Scarlet Witch (Elizabeth Olsen) who may, or may not, be dead now. As for other
+            important things to remember, it's hard to say right now as pretty much every Phase 4 outing – whether on
+            the big screen or the small screen – was largely self-contained with minimal crossovers. The credit scenes
+            largely served to introduce new characters, such as the aforementioned Eros in Eternals. Once we see more of
+            where the MCU is going in Phase 5, we might discover there were important details in Phase 4 beyond
+            introducing new characters, and we'll update this if that turns out to be the case.
+        </p>
+    </section>
+
+    <section id="phase5">
+        <h2>Phase 5 (2023 to 2025)</h2>
+        <p>
+            Chris Pratt in Guardians of the Galaxy Vol 3<br>
+            Marvel Studios
+        </p>
+        <p>Movies and TV shows featured:</p>
+        <ul>
+            <li>Ant-Man and The Wasp: Quantumania</li>
+            <li>Guardians of the Galaxy Vol 3</li>
+            <li>Secret Invasion</li>
+            <li>Loki season 2</li>
+            <li>The Marvels</li>
+            <li>Daredevil: Born Again</li>
+            <li>Captain America: New World Order</li>
+            <li>Thunderbolts</li>
+            <li>What If...? season 2</li>
+            <li>Echo</li>
+            <li>Ironheart</li>
+        </ul>
+        <p>What's it all about?</p>
+        <p>Phase 5 is still in its infancy with only two movies released so far, and only one of them – Ant-Man and The
+            Wasp: Quantumania – really has an impact on the MCU's future. Quantumania mostly served to introduce Kang
+            the
+            Conqueror, or at least this particular variant of Kang. We assume that we'll see Kang and more of his
+            variants
+            across Phase 5, although it's unclear whether the allegations against Jonathan Majors will affect current
+            plans. Guardians of the Galaxy Vol 3 didn't really care much for the wider MCU and just focused on wrapping
+            up
+            the story of the Guardians, although it did introduce a new version of the team that could return in the
+            future.
+            Outside of those two, the rest of Phase 5 is largely being kept under wraps in terms of what we can expect,
+            so
+            watch this space.
+        </p>
+    </section>
+
+    <section id="phase6">
+        <h2>Phase 6 (2025 to 2027)</h2>
+        <p>
+            FUTURE PROJECTS
+        </p>
+        </ul>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+<footer>
+    <blockquote class="blockquote">
+        <p class="mb-0">"With great power comes great responsibility."</p>
+        <footer class="blockquote-footer">Uncle Ben in <cite title="Source Title">Spider-Man</cite></footer>
+    </blockquote>
+</footer>
+
+</html>

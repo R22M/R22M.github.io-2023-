@@ -1,0 +1,123 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F0F0; /* background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #3F334D; 
+    color: #FF4F79; 
+    text-align: center;
+    padding: 20px;
+}
+
+/* Apply general styles to the contents */
+.navbar-brand {
+    display: flex; /* Align the image and text in a row */
+    align-items: center; /* Vertically center the elements */
+}
+
+/* Styles for the image within the navbar brand */
+.navbar-brand img {
+    width: 30px; /* Adjust the image size as per your preference */
+    height: 30px; /* Adjust the image size as per your preference */
+    margin-right: 10px; /* Add right margin to the image if needed */
+    /* Other custom styles for the image */
+}
+
+/* Styles for the navbar brand when hovering */
+.navbar-brand:hover {
+    /* Styles for the link when hovered */
+    color: #FF5733; /* Change the text color on hover */
+    /* Other hover styles if desired */
+}
+
+.back3{
+    background-image: url('images/Marvel_Cinematic_Universe_Logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    color: #326f7f; /* 11.b */
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    color: #3F334D; /* darker text */
+}
+
+/* Sections */
+section {
+    background-color: #93A8AC; /* Background color of sections */
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #D7CEB2; /* Border color */
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #3F334D; /* Title in dark color to have contrast */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Links with color */
+}
+
+
+/* Apply general styles for content containers */
+.col-12 {
+    background-color: #f8f8f8; /* Background color */
+    padding: 15px; /* Inner spacing */
+    margin-bottom: 20px; /* Spacing at the bottom between content blocks */
+    text-align: center; /* Center text horizontally */
+}
+
+/* Specific styles for images */
+.col-12 img {
+    max-width: 100%; /* Ensure images fit within their containers */
+    height: auto; /* Preserve image aspect ratio */
+}
+
+/* Styles for headings */
+.col-12 h2 {
+    font-size: 20px; /* Font size for headings */
+    margin-top: 10px; /* Spacing at the top of headings */
+    text-align: center; /* Center text horizontally */
+}
+
+/* Styles for paragraphs */
+.col-12 p {
+    font-size: 16px; /* Font size for paragraphs */
+    line-height: 1.5; /* Line height for better readability */
+}
+
+/* Styles for the main title */
+h1 {
+    font-size: 24px; /* Font size for the main title */
+    margin-top: 20px; /* Spacing at the top of the main title */
+}
+
+/* Change the background color on hover (mouse over) */
+.col-12:hover {
+    background-color: #e0e0e0; /* New background color on hover */
+}
+
